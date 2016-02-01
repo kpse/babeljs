@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.js"],"names":[],"mappings":";;AAAA,IAAI,UAAU,SAAV,OAAU;MAAC,iEAAW;WAAM,QAAQ,GAAR,CAAY,WAAZ;GAAN;SAAmC;CAA/C;;AAEd","file":"all.js","sourcesContent":["let recevie = (complete = () => console.log('finished!')) => complete()\n\nrecevie()\n"],"sourceRoot":"/source/"}
