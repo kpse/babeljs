@@ -35,3 +35,14 @@ function tag(strings, ...values) {
 var message = tag`It's ${new Date().getHours()} I'm ${""}`;
 
 console.log(message);
+
+//import "babel-polyfill";
+//function* greet() {
+//  console.log(`you called 'next'`);
+//  yield 'hello';
+//}
+//
+//let greeter = greet();
+//console.log(greeter);
+//let next = greeter.next();
+//console.log(next.value);
