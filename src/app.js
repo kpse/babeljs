@@ -46,3 +46,16 @@ console.log(message);
 //console.log(greeter);
 //let next = greeter.next();
 //console.log(next.value);
+
+let firstName = 'John';
+let lastName = 'Suo';
+
+let person = {firstName, lastName};
+
+console.log(person);
+
+let mascot = "moose";
+
+let team = {person, mascot};
+
+console.log(team);
