@@ -65,7 +65,27 @@ let first2 = [1,2,3];
 let second = [4,5,6];
 
 console.log(first2);
-first2.push(second)
+first2.push(second);
 console.log(first2);
-first2.push(...second)
+first2.push(...second);
 console.log(first2);
+
+
+var color = 'red';
+var speed = 10;
+var drive = 'go2';
+var car = {color, speed,
+
+  go() {
+    console.log('vroom');
+  },
+  [drive]: function () {
+    console.log('[drive]');
+  }
+};
+
+console.log(car.color);
+console.log(car.speed);
+
+car.go();
+car.go2();
