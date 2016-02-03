@@ -2,7 +2,7 @@ let recevie = (complete = () => console.log('finished!')) => complete();
 
 recevie();
 
-let [first,,,,fifth] = [1,2,3,4,5]
+let [first,,,,fifth] = [1, 2, 3, 4, 5]
 
 console.log(first, fifth);
 
@@ -61,8 +61,8 @@ let team = {person, mascot};
 console.log(team);
 
 
-let first2 = [1,2,3];
-let second = [4,5,6];
+let first2 = [1, 2, 3];
+let second = [4, 5, 6];
 
 console.log(first2);
 first2.push(second);
@@ -74,7 +74,8 @@ console.log(first2);
 var color = 'red';
 var speed = 10;
 var drive = 'go2';
-var car = {color, speed,
+var car = {
+  color, speed,
 
   go() {
     console.log('vroom');
@@ -89,3 +90,9 @@ console.log(car.speed);
 
 car.go();
 car.go2();
+
+
+import * as mod from 'math/addition';
+
+console.log(mod.sumTwo(1, 2));
+console.log(mod.sumThree(1, 2, 3));
