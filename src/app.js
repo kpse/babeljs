@@ -96,7 +96,11 @@ import * as mod from 'math/addition';
 
 console.log(mod.sumTwo(1, 2));
 console.log(mod.sumThree(1, 2, 3));
+console.log(mod.sumThree(...[6,7,8]));
 
 const VALUE = 'foo bar';
 //VALUE = 'other';
 console.log(VALUE);
+
+
+
