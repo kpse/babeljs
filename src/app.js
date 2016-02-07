@@ -2,7 +2,7 @@ let recevie = (complete = () => console.log('finished!')) => complete();
 
 recevie();
 
-let [first,,,,fifth] = [1, 2, 3, 4, 5]
+let [first,,,,fifth] = [1, 2, 3, 4, 5];
 
 console.log(first, fifth);
 
@@ -102,5 +102,12 @@ const VALUE = 'foo bar';
 //VALUE = 'other';
 console.log(VALUE);
 
+
+import Student from 'models/student'
+
+let user = new Student('suoqin', 33);
+
+console.log(user.name);
+console.log(user._age);
 
 
