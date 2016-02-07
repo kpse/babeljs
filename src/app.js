@@ -110,4 +110,10 @@ let user = new Student('suoqin', 33);
 console.log(user.name);
 console.log(user._age);
 
+import Person from 'models/person'
 
+
+let user2 = new Person('suoqin2', 44, 'China');
+
+console.log(user2.name);
+console.log(user2.citizen);
