@@ -123,3 +123,6 @@ let loopArray = [1,2,3,4,5];
 for (var i of loopArray) {
   console.log(i, 'loopArray');
 }
+
+let b = 0o12;
+console.log(b);
