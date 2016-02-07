@@ -117,3 +117,9 @@ let user2 = new Person('suoqin2', 44, 'China');
 
 console.log(user2.name);
 console.log(user2.citizen);
+
+let loopArray = [1,2,3,4,5];
+
+for (var i of loopArray) {
+  console.log(i, 'loopArray');
+}
