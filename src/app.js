@@ -96,7 +96,7 @@ import * as mod from 'math/addition';
 
 console.log(mod.sumTwo(1, 2));
 console.log(mod.sumThree(1, 2, 3));
-console.log(mod.sumThree(...[6,7,8]));
+console.log(mod.sumThree(...[6, 7, 8]));
 
 const VALUE = 'foo bar';
 //VALUE = 'other';
@@ -118,7 +118,7 @@ let user2 = new Person('suoqin2', 44, 'China');
 console.log(user2.name);
 console.log(user2.citizen);
 
-let loopArray = [1,2,3,4,5];
+let loopArray = [1, 2, 3, 4, 5];
 
 for (var i of loopArray) {
   console.log(i, 'loopArray');
@@ -138,14 +138,40 @@ console.log(set1.has('text'));
 
 set1.delete(44);
 
-for(var i of set1) {
+for (var i of set1) {
   console.log(i);
 }
 
-var set2 = new Set([1,2,3,4]);
+var set2 = new Set([1, 2, 3, 4]);
 var set3 = new Set(set1);
 
 
 console.log(set2.size);
 console.log(set3);
 
+
+let map1 = new Map();
+
+map1.set({x: 12}, 12);
+
+console.log(map1);
+
+console.log(map1.has({x: 12}));
+
+map1.set(11, 22);
+map1.set(11, 33);
+
+console.log(map1);
+
+map1.delete(11);
+
+console.log(map1);
+
+map1.clear();
+
+console.log(map1);
+
+
+let map2 = new Map([[1,2],[3,4]]);
+
+console.log(map2);
