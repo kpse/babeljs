@@ -126,3 +126,26 @@ for (var i of loopArray) {
 
 let b = 0o12;
 console.log(b);
+
+
+let set1 = new Set();
+
+set1.add({x: 12});
+set1.add(44);
+set1.add("text");
+
+console.log(set1.has('text'));
+
+set1.delete(44);
+
+for(var i of set1) {
+  console.log(i);
+}
+
+var set2 = new Set([1,2,3,4]);
+var set3 = new Set(set1);
+
+
+console.log(set2.size);
+console.log(set3);
+
