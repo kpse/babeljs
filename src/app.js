@@ -175,3 +175,10 @@ console.log(map1);
 let map2 = new Map([[1,2],[3,4]]);
 
 console.log(map2);
+
+
+import {Movie} from 'movie/movie'
+
+let m = new Movie();
+
+console.log(m.watch('ling ling qi'));
