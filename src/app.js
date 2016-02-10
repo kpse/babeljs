@@ -182,3 +182,5 @@ import {Movie} from 'movie/movie'
 let m = new Movie();
 
 console.log(m.watch('ling ling qi'));
+
+require('./reflect');

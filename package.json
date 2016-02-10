@@ -27,6 +27,7 @@
     "webpack": "^1.12.13"
   },
   "dependencies": {
-    "babel-polyfill": "^6.3.14"
+    "babel-polyfill": "^6.3.14",
+    "harmony-reflect": "^1.4.2"
   }
 }
