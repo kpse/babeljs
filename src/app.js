@@ -71,25 +71,7 @@ first2.push(...second);
 console.log(first2);
 
 
-var color = 'red';
-var speed = 10;
-var drive = 'go2';
-var car = {
-  color, speed,
-
-  go() {
-    console.log('vroom');
-  },
-  [drive]: function () {
-    console.log('[drive]');
-  }
-};
-
-console.log(car.color);
-console.log(car.speed);
-
-car.go();
-car.go2();
+require('./object_method');
 
 
 import * as mod from 'math/addition';
@@ -120,8 +102,7 @@ console.log(user2.citizen);
 
 require('./loop');
 
-let b = 0o12;
-console.log(b);
+require('./oct');
 
 
 require('./collection');
