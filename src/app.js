@@ -95,3 +95,5 @@ let m = new Movie();
 console.log(m.watch('ling ling qi'));
 
 require('./reflect');
+require('./counter');
+
