@@ -1,9 +1,25 @@
 import {Observable} from 'rxjs/Rx'
 
-Observable.timer(0, 1000)
-  .map(i => `Seconds elapsed ${i}`)
-  // Effects (imperative)
-  .subscribe(text => {
+// Observable.timer(0, 1000)
+//   .map(i => `Seconds elapsed ${i}`)
+//   // Effects (imperative)
+//   .subscribe(text => {
+//     const container = document.querySelector('#app');
+//     container.textContent = text;
+//   });
+
+
+function main() {
+  return Observable.timer(0, 1000)
+    .map(i => `Seconds elapsed ${i}`);
+}
+
+function DOMEffect(dom) {
+  dom.subscribe(text => {
     const container = document.querySelector('#app');
     container.textContent = text;
   });
+
+}
+
+DOMEffect(main());
